@@ -69,10 +69,10 @@ Here are the demonstrations of the 4 manipulation tasks across different memory 
   </tr>
   <tr>
     <td>
-      <video src="demo_data/panda/PickPlaceThreetimes-v1/motionplanning/0.mp4" width="100%" controls autoplay loop muted></video>
+      <video src="https://github.com/cytoplastm/VLA_Memory_dependence_benchmark/raw/refs/heads/main/demo_data/panda/PickPlaceThreetimes-v1/motionplanning/0.mp4" width="100%" controls autoplay loop muted></video>
     </td>
     <td>
-      <video src="demo_data/panda/PushCubeWithSignal-v1/motionplanning/0.mp4" width="100%" controls autoplay loop muted></video>
+      <video src="https://github.com/cytoplastm/VLA_Memory_dependence_benchmark/raw/refs/heads/main/demo_data/panda/PushCubeWithSignal-v1/motionplanning/0.mp4" width="100%" controls autoplay loop muted></video>
     </td>
   </tr>
   <tr>
@@ -81,10 +81,10 @@ Here are the demonstrations of the 4 manipulation tasks across different memory 
   </tr>
   <tr>
     <td>
-      <video src="demo_data/panda/SwapThreeCubes-v1/motionplanning/0.mp4" width="100%" controls autoplay loop muted></video>
+      <video src="https://github.com/cytoplastm/VLA_Memory_dependence_benchmark/raw/refs/heads/main/demo_data/panda/SwapThreeCubes-v1/motionplanning/0.mp4" width="100%" controls autoplay loop muted></video>
     </td>
     <td>
-      <video src="demo_data/panda/TeacherArmShuffle-v1/motionplanning/0.mp4" width="100%" controls autoplay loop muted></video>
+      <video src="https://github.com/cytoplastm/VLA_Memory_dependence_benchmark/raw/refs/heads/main/demo_data/panda/TeacherArmShuffle-v1/motionplanning/0.mp4" width="100%" controls autoplay loop muted></video>
     </td>
   </tr>
 </table>
