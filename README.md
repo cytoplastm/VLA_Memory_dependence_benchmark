@@ -62,32 +62,26 @@ You can also download from [Hugging Face](https://huggingface.co/datasets/furry1
 
 Here are the demonstrations of the 4 manipulation tasks across different memory dimensions:
 
-<table align="center">
-  <tr>
-    <td align="center"><b>PickPlaceThreetimes-v1</b></td>
-    <td align="center"><b>PushCubeWithSignal-v1</b></td>
-  </tr>
-  <tr>
-    <td>
-      <img src="demo_data/panda/PickPlaceThreetimes-v1/motionplanning/0.gif" width="100%">
-    </td>
-    <td>
-      <img src="demo_data/panda/PushCubeWithSignal-v1/motionplanning/0.gif" width="100%">
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><b>SwapThreeCubes-v1</b></td>
-    <td align="center"><b>TeacherArmShuffle-v1</b></td>
-  </tr>
-  <tr>
-    <td>
-      <img src="demo_data/panda/SwapThreeCubes-v1/motionplanning/0.gif" width="100%">
-    </td>
-    <td>
-      <img src="demo_data/panda/TeacherArmShuffle-v1/motionplanning/0.gif" width="100%">
-    </td>
-  </tr>
-</table>
+<div align="center">
+    <div style="display: inline-block; margin: 10px; text-align: center;">
+        <b>PickPlaceThreetimes-v1</b><br>
+        <img src="./demo_data/panda/PickPlaceThreetimes-v1/motionplanning/0.gif" width="350" />
+    </div>
+    <div style="display: inline-block; margin: 10px; text-align: center;">
+        <b>PushCubeWithSignal-v1</b><br>
+        <img src="./demo_data/panda/PushCubeWithSignal-v1/motionplanning/0.gif" width="350" />
+    </div>
+    <br>
+    <div style="display: inline-block; margin: 10px; text-align: center;">
+        <b>SwapThreeCubes-v1</b><br>
+        <img src="./demo_data/panda/SwapThreeCubes-v1/motionplanning/0.gif" width="350" />
+    </div>
+    <div style="display: inline-block; margin: 10px; text-align: center;">
+        <b>TeacherArmShuffle-v1</b><br>
+        <img src="./demo_data/panda/TeacherArmShuffle-v1/motionplanning/0.gif" width="350" />
+    </div>
+</div>
+<p align="center"><i>Demonstrations of the 4 manipulation tasks across different memory dimensions</i></p>
 
 ## 🔧 Task Description
 
