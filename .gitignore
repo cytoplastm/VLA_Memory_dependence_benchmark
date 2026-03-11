@@ -1,0 +1,8 @@
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略大型资产和数据集（这些是 234MB 的元凶）
+mani_skill/assets/
+data/
+*.h5
