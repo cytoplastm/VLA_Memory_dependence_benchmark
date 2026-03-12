@@ -20,9 +20,9 @@ from mani_skill.utils.structs.pose import Pose
 from mani_skill.utils.scene_builder.table import TableSceneBuilder
 
 try:
-    from .identification_cfgs import IDENTIFICATION_CONFIGS
+    from .teacher_arm_shuffle_cfgs import TEACHER_ARM_SHUFFLE_CONFIGS 
 except ImportError:
-    from mani_skill.envs.tasks.memory_dependence.identification_cfgs import IDENTIFICATION_CONFIGS
+    from mani_skill.envs.tasks.memory_dependence.teacher_arm_shuffle_cfgs import TEACHER_ARM_SHUFFLE_CONFIGS 
 
 @register_env("TeacherArmShuffle-v1", max_episode_steps=700)
 class TeacherArmShuffleEnv(BaseEnv):
@@ -37,10 +37,10 @@ class TeacherArmShuffleEnv(BaseEnv):
     def __init__(self, *args, robot_uids="panda", robot_init_qpos_noise=0.02, **kwargs):
         self.robot_init_qpos_noise = robot_init_qpos_noise
         
-        if robot_uids in IDENTIFICATION_CONFIGS:
-            cfg = IDENTIFICATION_CONFIGS[robot_uids]
+        if robot_uids in TEACHER_ARM_SHUFFLE_CONFIGS:
+            cfg = TEACHER_ARM_SHUFFLE_CONFIGS[robot_uids]
         else:
-            cfg = IDENTIFICATION_CONFIGS["panda"]
+            cfg = TEACHER_ARM_SHUFFLE_CONFIGS["panda"]
             
         self.cube_half_size = cfg["cube_half_size"]
         self.goal_thresh = cfg["goal_thresh"]
